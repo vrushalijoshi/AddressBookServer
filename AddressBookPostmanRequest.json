@@ -1,0 +1,63 @@
+{
+   "id":"221a3f04-f6a0-431f-7baf-fa229512c89f",
+   "name":"IntuitAddressBookApplciation",
+   "timestamp":1464574544751,
+   "requests":[
+      {
+         "collectionId":"221a3f04-f6a0-431f-7baf-fa229512c89f",
+         "id":"1768c270-c91b-15c3-e898-57dd185e2597",
+         "name":"GET_PERSON_RECORD_BY_ID",
+         "description":"",
+         "url":"http://localhost:8080/AddressBookServer/getAddressBookRecordById/9bb18d5c-28de-4719-9c97-fb4c56d93286",
+         "method":"GET",
+         "headers":"",
+         "data":"{\n            \"firstName\": \"Vrushali\",\n            \"middleName\": \"Ramdas\",\n            \"lastName\": \"Joshi\",\n            \"dateOfBirth\": \"1988-05-06T00:00:00.000-07:00\",\n            \"emailAddressDetails\": [\n                {\n                    \"emailAddress\": \"vrushalijoshi.cummins@gmail.com\",\n                    \"id\": \"d2301630-28e3-4ace-ab13-a32f3fa684c4\"\n                }\n            ],\n            \"contactNumberDetails\": [\n                {\n                    \"contactNumber\": 6083385607,\n                    \"id\": \"9a1ad6ff-5fed-4ae5-ad38-be7c98cbb5e3\"\n                }\n            ],\n            \"addressDetails\": [\n                {\n                    \"state\": \"California\",\n                    \"country\": \"United States Of America\",\n                    \"city\": \"San Diego\",\n                    \"zipCode\": 92122,\n                    \"streetAddress\": \"9110 Judicial Dr.\",\n                    \"apartmentNumber\": \"8222\",\n                    \"id\": \"a58fad1a-8d79-4439-a086-c912d03822a6\"\n                }\n            ],\n            \"lastModifiedDate\": \"2016-06-05T20:00:26.000-07:00\",\n            \"id\": \"9bb18d5c-28de-4719-9c97-fb4c56d93286\"\n        }",
+         "dataMode":"raw",
+         "timestamp":0,
+         "version":2,
+         "time":1465182066748
+      },
+      {
+         "collectionId":"221a3f04-f6a0-431f-7baf-fa229512c89f",
+         "id":"5c465ec2-95c8-e6bb-8876-eda2270dd946",
+         "name":"DELETE_PERSON_RECORD_BY_ID",
+         "description":"",
+         "url":"http://localhost:8080/AddressBookServer/deleteAddressBookRecordById/c27748a6-ad52-4689-9e1b-06e28c66f5d6",
+         "method":"DELETE",
+         "headers":"Content-Type: application/json\n",
+         "data":"",
+         "dataMode":"raw",
+         "timestamp":0,
+         "version":2,
+         "time":1465185789895
+      },
+      {
+         "collectionId":"221a3f04-f6a0-431f-7baf-fa229512c89f",
+         "id":"607b99f0-2f4f-90d0-9ee7-ffce67c0fbd7",
+         "name":"UPDATE_PERSON_RECORD",
+         "description":"",
+         "url":"http://localhost:8080/AddressBookServer/updateContactInformation",
+         "method":"PUT",
+         "headers":"Content-Type: application/json\n",
+         "data":" {\n\n            \"emailAddressDetails\": [\n                {\n                    \"emailAddress\": \"vrushalijoshi@gmail.com\",\n                    \"id\": \"f85ed745-79ce-4681-8f00-3da8ee4c4aa6\"\n\n                }\n            ],\n            \"contactNumberDetails\": [\n                \n            ],\n            \"addressDetails\": [\n                {\n                    \"state\": \"California\",\n                    \"country\": \"United States Of America\",\n                    \"streetAddress\": \"9110 Judicial Dr.\",\n                    \"apartmentNumber\": \"8222\",\n                    \"city\": \"San Diego\",\n                    \"zipCode\": 92122,\n                    \"id\": \"641145e0-0bee-45f0-9c9b-c8aef3491830\"\n                }\n            ],\n            \"id\": \"c27748a6-ad52-4689-9e1b-06e28c66f5d6\"\n\n        }",
+         "dataMode":"raw",
+         "timestamp":0,
+         "version":2,
+         "time":1465185744103
+      },
+      {
+         "collectionId":"221a3f04-f6a0-431f-7baf-fa229512c89f",
+         "id":"90a8c018-f28c-9e55-5e6c-7fe3f7ef2218",
+         "name":"CREATE_PERSON_RECORD",
+         "description":"",
+         "url":"http://localhost:8080/AddressBookServer/addAddressBookRecord",
+         "method":"POST",
+         "headers":"Content-Type: application/json\n",
+         "data":" {\n    \"firstName\": \"Vrushali\",\n    \"middleName\": \"Ramdas\",\n    \"lastName\": \"Joshi\",\n    \"dateOfBirth\": \"1988-05-06\",\n    \"emailAddressDetails\": [\n      {\n      \"emailAddress\": \"vrushalijoshi.cummins@gmail.com\"\n      }\n    ],\n    \"contactNumberDetails\": [\n      {\n        \"contactNumber\": 6083385607\n      }\n    ],\n    \"addressDetails\": [\n    {\n      \"state\": \"California\",\n      \"country\": \"United States Of America\",\n      \"city\": \"San Diego\",\n      \"zipCode\": 92122,\n      \"apartmentNumber\": \"8222\",\n      \"streetAddress\": \"9110 Judicial Dr.\"\n    }\n    ]\n  }",
+         "dataMode":"raw",
+         "timestamp":0,
+         "version":2,
+         "time":1465182022467
+      }
+   ]
+}
